@@ -1,0 +1,726 @@
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: 'Noto Sans JP','sans-serif';
+  letter-spacing: 0.08em;
+  line-height: 1.5;
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+/* 幅の取り方は要確認。px,em,rem,vw,%など。横幅を縮めた時、文字も比例させる時にはどうするか確認する。 */
+
+/* header */
+
+.btn_trigger{
+  display: none;
+}
+
+header {
+  padding: 1.042em 0;
+}
+
+._header{
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 220px;
+  padding-left: 3.357em;
+}
+
+.nav_list{
+  font-size: 2.4rem;
+  display: flex;
+}
+
+.nav_item{
+  font-size: 2.4rem;
+  padding-right: 1.667em;
+}
+
+/* fv */
+
+.fv{
+  background-image: url(../LightLounge_img/fv.png);
+  background-position: center;
+  display: flex;
+  max-width: 100%;
+  width: 100vw;
+  padding-top: 52%;
+  vertical-align: bottom;
+  background-size: cover;
+  position: relative;
+}
+
+.fv_concept{
+  color: #ffffff;
+  margin: auto 0;
+  font-size: 6vw;
+  font-weight: 900;
+  letter-spacing: 1.12rem;
+  padding-left: 0.208em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* common */
+
+h1{
+  font-size: 3.2rem;
+  text-align: center;
+  padding: 3.125em;
+}
+
+h2 ,footer{
+  font-size: 2.4rem;
+}
+
+.h2_about{
+  font-weight: bold;
+  padding-bottom: 2.083em;
+}
+
+.div_About ,.div_Services ,.div_Plan ,.News ,.all_Information ,footer{
+  width: 90%;
+  margin: auto;
+}
+
+.section_bgc{
+  width: 100%;
+  background-color: #FEF2E4;
+}
+
+section{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* About */
+
+.About {
+  padding-bottom: 10em;
+}
+
+.About_creative{
+  display: flex;
+}
+
+.creative_img ,.facilities_img{
+  padding-left: 3.571em;
+  margin-left: auto;
+}
+
+.pleasant_img{
+  padding-right: 3.571em;
+  margin-right: auto;
+}
+
+.About_pleasant{
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 3.571em 0;
+}
+
+.About_facilities{
+  display: flex;
+}
+
+.dialogue{
+  max-width: 50%;
+  margin: auto 0;
+}
+
+/* Services */
+
+.card_lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.card_item{
+  text-align: center;
+  padding-top: 3.571em;
+}
+
+.Services_img{
+  border-radius: 50%;
+  border: 1px solid;
+  padding: 4em;
+  width: 133px;
+  margin: auto;
+}
+
+.h2_Service{
+  padding: 0.917em 0;
+}
+
+.Services{
+  padding-bottom: 10em
+}
+
+
+
+/* Plan */
+
+.Plan{
+  padding-bottom: 10em;
+}
+
+.table {
+  padding-bottom: 2.083em;
+}
+
+.price_lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  grid-gap: 2.083em;
+}
+
+.price_card{
+  text-align: center;
+  width: 35.71em;
+  height: 14.286em;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.time{
+  font-size: 1.6rem;
+  padding: 2em 0 3.438em 0;
+}
+
+.price{
+  font-size: 3.2rem;
+}
+
+.printer{
+  display: flex;
+  align-items: center;
+  padding-top: 2.458em;
+}
+
+.printer_plans{
+  display: flex;
+}
+
+.printer_12{
+  display: flex;
+}
+
+.printer_34{
+  display: flex;
+}
+
+.printer_1 ,.printer_2 ,.printer_3, .printer_4{
+  margin: auto 2em;
+}
+
+.printer_1{
+  padding-right: 0;
+}
+
+.printer_3{
+  padding-right: 0;
+}
+
+/* News */
+
+.News{
+  padding-bottom: 10em;
+}
+
+._News{
+  display: flex;
+  font-size: 2.4rem;
+}
+
+.date{
+  padding-right: 1em;
+}
+
+.other_News{
+  text-align: right;
+  margin-top: 6em;
+}
+
+/* Information */
+
+.Information{
+  padding: 5%;
+}
+
+.all_Information{
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress_n_contact{
+  background-color: #ffffff;
+  font-size: 2.4rem;
+  margin: auto 0;
+  line-height: 1.8;
+  margin-right: 7.458em;
+  padding: 10% 3%;
+}
+
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer_menu{
+  display: flex;
+}
+
+.footer_nav{
+  padding-right: 35px;
+}
+
+/* FAQ */
+
+.FAQ{
+  background-color: #FEF2E4;
+}
+
+.Q_A{  
+  width: 90%;
+  margin: 3em 1em;
+  padding-bottom: 2.857em;
+}
+
+._q ,._a{
+  align-items: center;
+  display: flex;
+  padding-bottom: 0.714em;
+}
+
+.Q ,.A{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  flex-flow: column; 
+  vertical-align: top;
+  margin-right: 0.714em;
+}
+
+.size_normal{
+  width: 1.385em;
+  height: 1.385em;
+}
+
+.orange{
+  color: #F7931E;
+  border: 2px solid;
+  background-color: #ffffff;
+}
+
+.red{
+  color: #ED1C24;
+  border: 2px solid;
+  background-color: #ffffff;
+}
+
+.question ,.answer {
+  width: 100%;
+}
+
+@media screen and (max-width: 1100px){
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_nav{
+  text-align: right;
+  padding-right: 0;
+}
+
+}
+
+
+
+@media screen and (max-width: 1059px){
+
+.price_lists{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-gap: 2.083em;
+}
+
+.price_card{
+  text-align: center;
+  width: 24.286em;
+  height: 8.214em;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+
+.time{
+  font-size: 1.6rem;
+  padding: 0.857em 0 1.571em 0;
+}
+
+.price{
+  font-size: 2.4rem;
+}
+
+.Plan ,.News{
+  padding-bottom: 3.571em;
+}
+
+}
+
+@media screen and (max-width: 930px){
+
+.btn_trigger{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: #f7931e 1px solid;
+  z-index: 3;
+  margin-right: 0;
+  position: absolute;
+  top: 12px;
+  right: 17px;
+}
+
+.bar{
+  width: 15px;
+  height: 1px;
+  background-color: #F7931E;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bar_top{
+  top: 9px;
+}
+.bar_mid{
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.bar_bottom{
+  bottom: 9px;
+}
+
+.btn_trigger.close .bar_top{
+  transform: translate(-50%,6px) rotate(45deg);
+  transition: transform .3s;
+}
+.btn_trigger.close .bar_mid{
+  opacity: 0;
+  transition: opacity .3s;
+}
+.btn_trigger.close .bar_bottom{
+  transform: translate(-50%,-5px) rotate(-45deg);
+  transition: transform .3s;
+}
+
+.nav_list{
+  font-size: 2.4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_wrapper{
+  display: none;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo{
+  width: 100px;
+  padding-left: 0;
+  position: absolute;
+  top: 10px;
+  left: 17px;
+}
+
+header {
+  padding: 1.042em 0;
+  margin-top: 32px;
+}
+
+.nav_item{
+  font-size: 2.4rem;
+  padding: 0.5em 0;
+}
+
+.c{
+  font-size: 2.4rem;
+  padding: 0.5em 0;
+  background-color: #FEF2E4;
+  width: 100%;
+}
+
+}
+
+
+
+@media screen and (max-width: 768px){
+
+/* common */
+
+h1{
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 2.083em 0;
+}
+
+h2 ,footer{
+  font-size: 1.6rem;
+}
+
+/* fv */
+
+.fv_concept{
+  color: #ffffff;
+  margin: auto 0;
+  font-size: 6.4vw;
+  font-weight: 900;
+  letter-spacing: 0.3rem;
+  padding-left: 0.708em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* About */
+
+.About {
+  padding-bottom: 3.571em;
+}
+
+.About_creative{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.About_pleasant{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.About_facilities{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.creative_img ,.facilities_img{
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pleasant_img{
+  padding-right: 0;
+  margin: 0 auto;
+}
+
+.dialogue{
+  max-width: 100%;
+  margin: auto 0;
+}
+
+.h2_about{
+  padding: 0.625em 0;
+}
+
+/* Services */
+
+.card_lists{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.plus_comment{
+  text-align: center;
+}
+
+.Services_img{
+  border-radius: 50%;
+  border: 1px solid;
+  padding: 2.3em;
+  width: 64px;
+  margin: 0 auto;
+}
+
+.Services {
+  padding-bottom: 3.571em;
+}
+
+/* Plan */
+
+.price_lists{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-gap: 2.083em;
+}
+
+.price_card{
+  text-align: center;
+  width: 24.286em;
+  height: 8.214em;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.Plan_img{
+  margin-right: 20px;
+}
+
+.printer_plans{
+  display: flex;
+  flex-direction: column;
+}
+
+.printer_1{
+  padding-right: 0.6em;
+}
+
+.bb{
+  padding-right: 1.9em;
+}
+
+.printer_1 ,.printer_2 ,.printer_3, .printer_4{
+  margin: 0;
+}
+
+
+
+/* News */
+
+.time{
+  font-size: 1.6rem;
+  padding: 0.857em 0 1.571em 0;
+}
+
+.price{
+  font-size: 2.4rem;
+}
+
+.Plan ,.News{
+  padding-bottom: 3.571em;
+}
+
+/* News */
+._News{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+}
+
+
+/* Information */
+
+.all_Information{
+  display: flex;
+  flex-direction: column;
+}
+
+.adress_n_contact {
+  font-size: 1.6rem;
+  margin: auto 0;
+  line-height: 1.8;
+}
+
+.map{
+  padding-top: 1.429em;
+}
+
+.LLrights{
+  font-size: 1.2rem;
+}
+
+/* footer */
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_nav{
+  text-align: right;
+  padding-right: 0;
+}
+
+/* FAQ */
+
+.orange{
+  color: #F7931E;
+  border: 2px solid;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.red{
+  color: #ED1C24;
+  border: 2px solid;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.question ,.answer {
+  padding-left: 40px;
+}
+
+}
+
+@media screen and (max-width: 480px){
+
+.plus_comment{
+  text-align: left;
+}
+
+
+.price_card{
+  text-align: center;
+  width: 22em;
+  height: 8em;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+}
